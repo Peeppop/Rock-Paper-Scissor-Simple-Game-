@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+}
+
+.rock, .paper, .scissors {
+    font-style: italic;
+    font-weight: bold;
+    font-size: larger;
+    background-color: purple;
+    color: white;
+    padding: 30px;
+    border-radius: 60px;
+    border: none;
+    transition: 0.30s;
+    margin: 20px;
+}
+
+.rps {
+    font-family: Arial;
+    text-decoration: underline;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+}
+
+.rock:hover,
+.paper:hover,
+.scissors:hover {
+    opacity: 0.5;
+    background-color: bisque;
+    color: black;
+    transition: background-color 0.30s;
+}
